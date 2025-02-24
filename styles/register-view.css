@@ -1,0 +1,17 @@
+@import "default-values.css";
+
+.register-form {
+    border: 1px solid var(--primary-gray);
+    padding: 1em;
+    border-radius: 10px;
+    background: white;
+    box-shadow: var(--primary-blue) 0px 0px 10px;
+}
+
+body {
+    background: var(--primary-beige);
+}
+
+.message-change-view {
+    margin-top: 10px;
+}

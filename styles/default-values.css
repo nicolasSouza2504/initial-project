@@ -1,0 +1,15 @@
+
+/*
+○ Vermelho (#d32f2f) – Representa lutas sociais e direitos civis.
+○ Bege (#f5f5dc) – Para criar um fundo suave e amigável.
+○ Azul Escuro (#303f9f) – Para títulos e elementos de destaque.
+○ Cinza (#616161) – Para textos e bordas sutis.
+*/
+
+:root {
+    --primary-red: #d32f2f;
+    --primary-beige: #eeeea3;
+    --primary-blue: #303f9f;
+    --primary-gray: #616161;
+}
+

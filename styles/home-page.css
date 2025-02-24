@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+.hero {
+    background: url('images/periferia_banner.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    max-height: 700px;
+    font-family: 'Merriweather', serif;
+}
+.img-card {
+    border-radius: 10px;
+    width: 100%;
+    max-height: 500px;
+
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #212529;
+    color: white;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+    color: black;
+    font-family: 'Merriweather', serif;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-height: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: row;
+        text-align: center;
+        max-height: 50px;
+
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+}
+article {
+    max-width: 900px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.article {
+    padding-bottom: 60px;
+}
+
+.fixed-left-image {
+    position: fixed;
+    width: 35%;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(5px) brightness(80%);
+    z-index: -1;
+}
