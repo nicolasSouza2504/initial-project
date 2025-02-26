@@ -9,7 +9,7 @@
 }
 
 body {
-    background: var(--primary-beige);
+    background: linear-gradient(to bottom, rgb(220, 53, 69), rgb(114, 34, 44));
 }
 
 .message-change-view {

@@ -46,6 +46,8 @@ class UtilPhoneValidator {
                 return false
             } else if (phoneNumber.length >= 3 && phoneNumber[2] !== "9") {
                 return false;
+            } else if (phoneNumber.length <= 10) {
+                return false;
             }
 
         } else {

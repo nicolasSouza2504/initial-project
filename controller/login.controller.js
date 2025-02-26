@@ -18,6 +18,8 @@ async function handleLogin() {
 
     if (username === userLogin.username && password === userLogin.password) {
         window.location.href = "home-page.html";
+    } else {
+        document.getElementById("error-message").innerHTML = "Usuário ou senha inválidos";
     }
 
 }
